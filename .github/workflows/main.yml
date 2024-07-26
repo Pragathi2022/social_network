@@ -1,6 +1,4 @@
-from collections import defaultdict, deque
-
-class SocialNetwork:
+class SocialNetwork :
     def _init_(self):
         self.network = defaultdict(set)
     
