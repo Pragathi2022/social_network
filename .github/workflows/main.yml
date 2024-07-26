@@ -35,20 +35,4 @@ class SocialNetwork :
         
         return -1
 
-# Example usage:
-network = SocialNetwork()
-network.add_friendship("Alice", "Bob")
-network.add_friendship("Bob", "Janice")
-network.add_friendship("Alice", "Charlie")
-network.add_friendship("Charlie", "David")
-network.add_friendship("David", "Janice")
 
-alice_friends = network.find_friends("Alice")
-bob_friends = network.find_friends("Bob")
-common_friends = network.find_common_friends("Alice", "Bob")
-connection_level = network.find_connection_level("Alice", "Janice")
-
-print(f"Alice's friends: {alice_friends}")
-print(f"Bob's friends: {bob_friends}")
-print(f"Common friends of Alice and Bob: {common_friends}")
-print(f"Connection level between Alice and Janice: {connection_level}")
